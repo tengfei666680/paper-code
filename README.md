@@ -1,6 +1,9 @@
 # 使用说明：这是《An Additive feature fusion attention based on YOLO network for aircraft skin damage detection》文章中的代码部分，是基于YOLOv7模型改进的
 先按照YOLOv7模型的训练方式进行环境搭建和制作自己的数据集格式；然后即可训练模型。下图是本文提出的改进：
+# 总的改进结构图：
 ![image](https://github.com/tengfei666680/paper-code/assets/83683292/e5665b0d-d24c-4c6c-b214-a77fcd25736d)
+# 加性特征融合注意力机制结构图：
+![加性特征融合注意力机制-英文](https://github.com/tengfei666680/paper-code/assets/83683292/c127282d-6dc3-4460-b536-2035d82e850b)
 
 
 
