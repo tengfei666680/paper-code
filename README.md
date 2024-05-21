@@ -1,5 +1,7 @@
 # 使用说明：这是《An Additive feature fusion attention based on YOLO network for aircraft skin damage detection》文章中的代码部分，是基于YOLOv7模型改进的
-先按照YOLOv7模型的训练方式进行环境搭建和制作自己的数据集格式；然后即可训练模型
+先按照YOLOv7模型的训练方式进行环境搭建和制作自己的数据集格式；然后即可训练模型。下图是本文提出的改进：
+![image](https://github.com/tengfei666680/paper-code/assets/83683292/e5665b0d-d24c-4c6c-b214-a77fcd25736d)
+
 
 
 本文提出的加性特征融合注意力机制和动态Inner-CIOU损失函数代码分别在model/common.py中的Add_Attention类（125行）和utils/general.py/bbox_iou类/383行
