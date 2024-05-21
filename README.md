@@ -13,12 +13,6 @@
 
 tips：YOLOv7保存的best.pt模型的指标不是完全参考mAP0.5指标的，mAP0.5：0.95指标占比较大，本代码中还会另外保存best_map.pt文件，这是参照map0.5指标的。
 
-## Performance 
-
-| Model | Test Size | AP<sup>test</sup> | AP<sub>50</sub><sup>test</sup> | AP<sub>75</sub><sup>test</sup> | batch 1 fps | batch 32 average time |
-| :-- | :-: | :-: | :-: | :-: | :-: | :-: |
-| [**YOLOv7**](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7.pt) | 640 | **51.4%** | **69.7%** | **55.9%** | 161 *fps* | 2.8 *ms* |
-
 
 
 ## Testing
